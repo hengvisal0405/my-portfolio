@@ -92,11 +92,12 @@ const Contact = () => {
               <button
                 type="submit"
                 className='bg-gradient-to-r from-[#fc4a1a] to-[#f7b733] text-white 
-                hidden md:inline transform transition-transform duration-300 hover:scale-105 
-                px-8 py-2 rounded-full'
+  transform transition-transform duration-300 hover:scale-105 
+  px-6 md:px-8 py-2 rounded-full text-sm md:text-base'
               >
                 Send
               </button>
+
             </form>
           </div>
         </div>
